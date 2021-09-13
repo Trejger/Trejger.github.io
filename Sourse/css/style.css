@@ -29,6 +29,7 @@ nav{
 }
 .main{
     width: 100%;
+    
     height: calc(100% - 60px);
-    background: url(../img/boy.jpg) , url(../img/bg.jpg) center/cover no-repeat;
+    background: url(../img/bg.jpg) center/cover no-repeat;
 }
