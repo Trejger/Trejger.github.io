@@ -51,7 +51,7 @@ nav{
     font-size: 22px;
     color: #79818d;
 }
-.title__container imput{
+.title__container input{
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -65,5 +65,9 @@ nav{
 
 .div h1{
     float: left;
+    height: 40px;
+    
+}
+.br{
     height: 40px;
 }
