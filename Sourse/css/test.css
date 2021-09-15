@@ -10,5 +10,8 @@ body{
 }
 .main_block div{
     line-height: 50px;
-    font
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
 }
+.
