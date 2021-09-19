@@ -5,7 +5,7 @@ body{
 .main_block{
     border: 2px solid red;
     max-width: 800px;
-    height: 800px;
+    height: 1000px;
     margin: 0 auto;
 }
 .main_block div{
@@ -13,13 +13,20 @@ body{
     font-weight: bold;
     font-size: 18px;
     text-align: center;
+    width: 33%;
 }
+
 .block_1{
-    background-color: antiquewhite
+    background-color: antiquewhite;
+    float: left;
 }
+
 .block_2{
-    background-color: coral
+    background-color: coral;
+   float: left;
 }
+
 .block_3{
-    background-color: 
+    background-color: lightgreen;
+    float: left; 
 }
