@@ -1,5 +1,6 @@
 body{
     font-family: Arial, sans-serif;
+    background-image: url(../img/background28.jpg)
 }
 
 nav{
@@ -13,10 +14,10 @@ nav{
     font-size: 28px;
     line-height: 60px;
     padding-left: 70px;
-    float: left
+    float: left;
 }
 .menu{
-    float: left;
+    float:left;
     padding-left: 200px; 
 }
 .menu li{
@@ -29,16 +30,14 @@ nav{
 }
 .main{
     width: 100%;
-    
-    height: calc(100% - 60px);
-    background: url(../img/bg.jpg);
+     height:  calc(100% - 60px);
 }
 
 .title__container{
-    float: left;
-    margin-bottom: 432px 200px 0px 404px;
+    float: inherit;
+    margin-bottom: 0px 0px 0px 0px;
     color: #2c384a;
-    text-align: center;
+    text-align:center;
 }
 
 .title__container h1{
@@ -47,8 +46,8 @@ nav{
 }
 
 .title__container h4{
-    margin-top: 40px;
-    font-size: 22px;
+    margin-top: 60px;
+    font-size: 30px;
     color: #79818d;
 }
 .title__container input{
@@ -63,11 +62,14 @@ nav{
     margin: 50px 14px 0px 14px;
 }
 
-.div h2{
-    float: left;
-    height: 70px;
+div h2{
+    height: 60px;
+    text-align: center;
     
 }
-.br{
-    height: 40px;
-}
+
+{
+    padding: 200px;
+    height: 40px;}   
+
+   
