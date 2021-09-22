@@ -65,11 +65,9 @@ nav{
 div h2{
     height: 60px;
     text-align: center;
-    
+    font-family:serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 0px 0px 0px 0px;
 }
 
-{
-    padding: 200px;
-    height: 40px;}   
-
-   
