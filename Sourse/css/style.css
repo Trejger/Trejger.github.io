@@ -182,19 +182,9 @@ border: 0px solid blue;
     padding: 30px 40px 40px 400px;
 }
 
-.rew{
-    height: 20px;
+.div{
+    float: left;
 }
-.wer{
-    height: 20px;
-    padding: 5px 5px 5px 0px;
-}
-.qwe{
-    padding: 10px 0px 30px 200px;
-    
-}
-   
-.asd{
-    padding: 10px 0px 30px 200px;
-    text-indent: 200px;
+.div{
+    float: left;
 }
