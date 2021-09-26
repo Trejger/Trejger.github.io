@@ -74,7 +74,6 @@ div h2{
 .nom {
     padding: 20px;
     height: 50px;
-    
     font-family:inherit;
     
 }
@@ -117,6 +116,7 @@ border: 0px solid blue;
 }
 .bon{
     height: 60px;
+    font-weight:bold;
 }
 
 
@@ -130,6 +130,7 @@ border: 0px solid blue;
 }
 .bov{
     height: 60px;
+    font-weight:bold;
 }
 
 
@@ -144,6 +145,7 @@ border: 0px solid blue;
 }
 .bod{
     height: 60px;
+    font-weight:bold;
 }
 
 
@@ -158,10 +160,25 @@ border: 0px solid blue;
 
 .box{
     height: 60px;
+    font-weight:bold;
 }
 
 
 .ror{
     padding: 400px;
+    height: 100px;
+    font-family:inherit;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration:underline;
 }
+.rov {
+   padding: 10px;
+    width: 100px;
+}
+.div {
     
+}
+
+
+   
