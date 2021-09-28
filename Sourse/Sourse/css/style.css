@@ -183,18 +183,14 @@ border: 0px solid blue;
 }
 
 .rew{
-    height: 20px;
+    float:left;
+    padding: 10px;
+    width: 200px;
 }
 .wer{
-    height: 20px;
-    padding: 5px 5px 5px 0px;
-}
-.qwe{
-    padding: 10px 0px 30px 200px;
+    padding-right: 200px;
+    margin: 30px;
     
-}
-   
-.asd{
-    padding: 10px 10px 30px 200px;
-    font-weight: 100px;
+    
+    
 }
