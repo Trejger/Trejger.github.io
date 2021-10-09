@@ -84,15 +84,15 @@ div h2{
 }
 .nor {
 
-    height: 50px;
-    text-align: center;
+    height: 70px;
+    text-align:center;
     border: 4px solid #6d7682;
     background: none;
     border-radius: 5px;
     color: #6d7682;
-    font-size: 15px;
-    padding: 0px 20px;
-    margin: 200px 20px 20px 550px;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 70px 100px 10px 650px;
 }
 
 .nov {
@@ -103,7 +103,7 @@ div h2{
     font-weight: 200;
     margin: 100px 10px 10px 10px;
     text-decoration:underline;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 20px 0px 0px;
 }
 .nob {
  width: 90px;
@@ -125,7 +125,7 @@ border: 0px solid blue;
 height: 200px;
 position:absolute;
 top:1200px;
-left:400px;
+left:530px;
 border: 0px solid blue;
 }
 .bov{
@@ -140,7 +140,7 @@ border: 0px solid blue;
 height: 200px;
 position:absolute;
 top:1200px;
-left:700px;
+left:1000px;
 border: 0px solid blue;
 }
 .bod{
@@ -154,7 +154,7 @@ border: 0px solid blue;
 height: 200px;
 position:absolute;
 top:1200px;
-left:1000px;
+left:1400px;
 border: 0px solid blue; 
 }
 
@@ -175,7 +175,7 @@ border: 0px solid blue;
 }
 .rov {
     float:none;
-    padding: 30px 40px 40px 150px;
+    padding: 50px 50px 50px 300px;
     text-align: center;
 }
 .er{
@@ -196,12 +196,12 @@ border: 0px solid blue;
     }
 
 .asd{
-    height: 40px;
-   width: 150px;
+    height: 50px;
+    width: 150px;
     border: 3px solid #6d7682;
     border-radius: 5px;
     font-size: 15px;
-    padding: 0px 10px;
+    padding: 0px 10px 20px 20px;
     
 }
 
@@ -272,3 +272,89 @@ border: 0px solid blue;
 .div{
     display: block;
 }
+.iop{
+    width: 90px;
+    height: 300px;
+    position:absolute;
+    top:3050px;
+    left:300px;
+    padding: 50px;
+}
+.poi{
+    width: 90px;
+    height: 300px;
+    position:absolute;
+    top:3050px;
+    left:550px;
+    padding: 50px;
+}
+.jkl{
+    width: 90px;
+    height: 300px;
+    position:absolute;
+    top:3050px;
+    left:800px;
+    padding: 50px;
+}
+.lkj{
+    width: 90px;
+    height: 300px;
+    position:absolute;
+    top:3050px;
+    left:1100px;
+    padding: 50px;
+}
+.pom{
+    text-transform:uppercase;
+    text-decoration: underline;
+    font-weight:bold;
+    text-align:center;
+    padding: 150px 20px 20px 20px;
+}
+.vvb{
+     padding: 50px;
+     text-align: center;
+}
+.mnn{
+    text-transform:uppercase;
+    text-decoration: underline;
+    font-weight:bold;
+    text-align:center;
+    padding: 150px 20px 20px 20px;
+}
+.kmk{
+    text-align: center;
+}
+.vbv{
+    width: 90px;
+    height: 300px;
+    position:absolute;
+    top:3050px;
+    padding: 650px 80px 80px 400px;
+}
+.ffg{
+    width: 90px;
+    height: 300px;
+    position:absolute;
+    top:3050px;
+    padding: 650px 80px 80px 700px;
+}
+.gff{
+    width: 80px;
+    height: 400px;
+    position:absolute;
+    top:3000px;
+    padding: 700px 80px 80px 1000px;
+}
+.fdd{
+    padding: 300px 20px 20px 20px;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration: underline;
+    font-weight:bold;
+}
+.sfs{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
