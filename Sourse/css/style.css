@@ -29,15 +29,19 @@ nav{
     text-transform: uppercase;
 }
 .main{
-    width: 100%;
+     width: 100%;
      height:  calc(100% - 60px);
+    
 }
 
 .title__container{
-    float: inherit;
-    margin-bottom: 0px 0px 0px 0px;
+    padding: 200px 200px 200px 200px;
     color: #2c384a;
-    text-align:center;
+    text-align:left;
+    background-image: url("../img/Boy.png");
+    background-repeat: no-repeat;
+    float:right;
+
 }
 
 .title__container h1{
@@ -67,14 +71,16 @@ div h2{
     text-align: center;
     font-family:serif;
     text-transform: uppercase;
-    font-weight: 200;
-    margin: 0px 0px 0px 0px;
+    text-decoration: underline;
+    font-weight:bold;
+    padding: 100px 10px 10px 10px;
 }
 
 .nom {
-    padding: 20px;
+    padding: 40px;
     height: 50px;
     font-family:inherit;
+    text-align: center;
     
 }
 .non {
@@ -106,12 +112,12 @@ div h2{
     padding: 0px 20px 0px 0px;
 }
 .nob {
- width: 90px;
-height: 200px;
-position:absolute;
-top:1200px;
-left:100px;
-border: 0px solid blue;
+    width: 90px;
+    height: 200px;
+    position:absolute;
+    top:1300px;
+    left:100px;
+    border: 0px solid blue;
     
 }
 .bon{
@@ -119,51 +125,42 @@ border: 0px solid blue;
     font-weight:bold;
 }
 
-
 .vob{
     width: 90px;
-height: 200px;
-position:absolute;
-top:1200px;
-left:530px;
-border: 0px solid blue;
+    height: 200px;
+    position:absolute;
+    top:1300px;
+    left:530px;
+    border: 0px solid blue;
 }
 .bov{
     height: 60px;
     font-weight:bold;
 }
-
-
-
 .dob{
    width: 90px;
-height: 200px;
-position:absolute;
-top:1200px;
-left:1000px;
-border: 0px solid blue;
+   height: 200px;
+   position:absolute;
+   top:1300px;
+   left:1000px;
+   border: 0px solid blue;
 }
 .bod{
     height: 60px;
     font-weight:bold;
 }
-
-
 .xob{
    width: 90px;
-height: 200px;
-position:absolute;
-top:1200px;
-left:1400px;
-border: 0px solid blue; 
+   height: 200px;
+   position:absolute;
+   top:1300px;
+   left:1400px;
+   border: 0px solid blue; 
 }
-
 .box{
     height: 60px;
     font-weight:bold;
 }
-
-
 .ror{
     padding: 400px;
     padding-bottom: 30px;
@@ -202,7 +199,6 @@ border: 0px solid blue;
     border-radius: 5px;
     font-size: 15px;
     padding: 0px 10px 20px 20px;
-    
 }
 
 .zxc{
@@ -266,7 +262,7 @@ border: 0px solid blue;
     font-weight:bold;
     text-align: center;
     text-transform:uppercase;
-    padding: 20px 20px 20px 20px;
+    padding: 100px 20px 20px 20px;
 
 }
 .div{
@@ -276,7 +272,7 @@ border: 0px solid blue;
     width: 90px;
     height: 300px;
     position:absolute;
-    top:3050px;
+    top:3300px;
     left:300px;
     padding: 50px;
 }
@@ -284,7 +280,7 @@ border: 0px solid blue;
     width: 90px;
     height: 300px;
     position:absolute;
-    top:3050px;
+    top:3300px;
     left:550px;
     padding: 50px;
 }
@@ -292,7 +288,7 @@ border: 0px solid blue;
     width: 90px;
     height: 300px;
     position:absolute;
-    top:3050px;
+    top:3300px;
     left:800px;
     padding: 50px;
 }
@@ -300,7 +296,7 @@ border: 0px solid blue;
     width: 90px;
     height: 300px;
     position:absolute;
-    top:3050px;
+    top:3300px;
     left:1100px;
     padding: 50px;
 }
@@ -329,21 +325,21 @@ border: 0px solid blue;
     width: 90px;
     height: 300px;
     position:absolute;
-    top:3050px;
+    top:3150px;
     padding: 650px 80px 80px 400px;
 }
 .ffg{
     width: 90px;
     height: 300px;
     position:absolute;
-    top:3050px;
+    top:3150px;
     padding: 650px 80px 80px 700px;
 }
 .gff{
     width: 80px;
     height: 400px;
     position:absolute;
-    top:3000px;
+    top:3100px;
     padding: 700px 80px 80px 1000px;
 }
 .fdd{
