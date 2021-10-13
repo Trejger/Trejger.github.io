@@ -34,14 +34,18 @@ nav{
     
 }
 
+.lm{
+    float: right;
+    margin-top: -33%; 
+    line-height: 60px;
+    height: 800px;
+   
+}
 .title__container{
     padding: 200px 200px 200px 200px;
     color: #2c384a;
     text-align:left;
-    background-image: url("../img/Boy.png");
     background-repeat: no-repeat;
-    float:right;
-
 }
 
 .title__container h1{
@@ -73,7 +77,7 @@ div h2{
     text-transform: uppercase;
     text-decoration: underline;
     font-weight:bold;
-    padding: 100px 10px 10px 10px;
+    padding: 180px 10px 10px 10px;
 }
 
 .nom {
@@ -325,22 +329,22 @@ div h2{
     width: 90px;
     height: 300px;
     position:absolute;
-    top:3150px;
-    padding: 650px 80px 80px 400px;
+    top:3250px;
+    padding: 700px 80px 80px 400px;
 }
 .ffg{
     width: 90px;
     height: 300px;
     position:absolute;
     top:3150px;
-    padding: 650px 80px 80px 700px;
+    padding: 800px 80px 80px 700px;
 }
 .gff{
     width: 80px;
     height: 400px;
     position:absolute;
     top:3100px;
-    padding: 700px 80px 80px 1000px;
+    padding: 850px 80px 80px 1000px;
 }
 .fdd{
     padding: 300px 20px 20px 20px;
@@ -351,6 +355,6 @@ div h2{
 }
 .sfs{
     text-align: center;
-    padding: 20px 20px 20px 20px;
+    
 }
 
