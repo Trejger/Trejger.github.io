@@ -71,17 +71,17 @@ nav{
 }
 
 div h2{
-    height: 60px;
+    height: 80px;
     text-align: center;
     font-family:serif;
     text-transform: uppercase;
     text-decoration: underline;
     font-weight:bold;
-    padding: 180px 10px 10px 10px;
+    padding: 400px 10px 10px 10px;
 }
 
 .nom {
-    padding: 40px;
+    padding: 50px;
     height: 50px;
     font-family:inherit;
     text-align: center;
@@ -115,59 +115,29 @@ div h2{
     text-decoration:underline;
     padding: 0px 20px 0px 0px;
 }
-.nob {
-    width: 90px;
-    height: 200px;
-    position:absolute;
-    top:1300px;
-    left:100px;
-    border: 0px solid blue;
+
+.row{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row-reverse;
+    width: 100%;
+}
+.col{
+    
+    padding: 10px 100px 30px 20px;
+    display:block;
+    justify-content:center;
     
 }
-.bon{
-    height: 60px;
-    font-weight:bold;
-}
 
-.vob{
-    width: 90px;
-    height: 200px;
-    position:absolute;
-    top:1300px;
-    left:530px;
-    border: 0px solid blue;
-}
-.bov{
-    height: 60px;
-    font-weight:bold;
-}
-.dob{
-   width: 90px;
-   height: 200px;
-   position:absolute;
-   top:1300px;
-   left:1000px;
-   border: 0px solid blue;
-}
-.bod{
-    height: 60px;
-    font-weight:bold;
-}
-.xob{
-   width: 90px;
-   height: 200px;
-   position:absolute;
-   top:1300px;
-   left:1400px;
-   border: 0px solid blue; 
-}
-.box{
-    height: 60px;
-    font-weight:bold;
-}
+
 .ror{
-    padding: 400px;
-    padding-bottom: 30px;
+   
+
+    padding: 200px;
+    padding-bottom: 50px;
     height: 100px;
     font-family:inherit;
     text-align: center;
@@ -180,8 +150,10 @@ div h2{
     text-align: center;
 }
 .er{
-    padding: 30px 40px 40px 40px;
+    padding: 30px 50px 40px 40px;
+    height: 100%;
     display: block;
+    
     margin: 0 auto;
 }
 
@@ -259,57 +231,45 @@ div h2{
     user-select:all;
     text-align:left;
     padding: 10px 10px 10px 200px;
-    margin: 30px;
+    margin: 10px;
+}
+
+.lp{
+    user-select: all;
+    display: block;
+    padding: 10px 10px 10px 20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    
+}
+
+.pl{
+    
+    
 }
 
 .aaa{
     font-weight:bold;
     text-align: center;
     text-transform:uppercase;
-    padding: 100px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
 
 }
-.div{
-    display: block;
+
+.gol{
+     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row-reverse;
+    width: 100%;
 }
-.iop{
-    width: 90px;
-    height: 300px;
-    position:absolute;
-    top:3300px;
-    left:300px;
-    padding: 50px;
-}
-.poi{
-    width: 90px;
-    height: 300px;
-    position:absolute;
-    top:3300px;
-    left:550px;
-    padding: 50px;
-}
-.jkl{
-    width: 90px;
-    height: 300px;
-    position:absolute;
-    top:3300px;
-    left:800px;
-    padding: 50px;
-}
-.lkj{
-    width: 90px;
-    height: 300px;
-    position:absolute;
-    top:3300px;
-    left:1100px;
-    padding: 50px;
-}
+
 .pom{
     text-transform:uppercase;
     text-decoration: underline;
     font-weight:bold;
     text-align:center;
-    padding: 150px 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
 }
 .vvb{
      padding: 50px;
@@ -345,6 +305,7 @@ div h2{
     position:absolute;
     top:3100px;
     padding: 850px 80px 80px 1000px;
+    
 }
 .fdd{
     padding: 300px 20px 20px 20px;
