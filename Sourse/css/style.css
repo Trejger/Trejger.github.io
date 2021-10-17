@@ -252,12 +252,12 @@ div h2{
     font-weight:bold;
     text-align: center;
     text-transform:uppercase;
-    padding: 30px 20px 20px 20px;
+    padding: 80px 20px 20px 20px;
 
 }
 
 .gol{
-     padding: 20px;
+    padding: 150px;
     display: flex;
     justify-content: space-around;
     flex-direction:row-reverse;
@@ -284,27 +284,20 @@ div h2{
 }
 .kmk{
     text-align: center;
+
 }
-.vbv{
-    width: 90px;
-    height: 300px;
-    position:absolute;
-    top:3250px;
-    padding: 700px 80px 80px 400px;
-}
-.ffg{
-    width: 90px;
-    height: 300px;
-    position:absolute;
-    top:3150px;
-    padding: 800px 80px 80px 700px;
-}
-.gff{
-    width: 80px;
-    height: 400px;
-    position:absolute;
-    top:3100px;
-    padding: 850px 80px 80px 1000px;
+
+
+
+
+.vdv{
+     padding: 100px;
+    display:inline-flex;
+    width: 100%;
+    justify-content:flex-end;
+
+  }
+    
     
 }
 .fdd{
