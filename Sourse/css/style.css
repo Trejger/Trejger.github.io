@@ -70,7 +70,7 @@ nav{
     margin: 50px 14px 0px 14px;
 }
 
-div h2{
+.hhx{
     height: 80px;
     text-align: center;
     font-family:serif;
@@ -244,7 +244,7 @@ div h2{
 }
 
 .pl{
-    
+    text-align: center;
     
 }
 
@@ -291,13 +291,22 @@ div h2{
 
 
 .vdv{
-     padding: 100px;
-    display:inline-flex;
+  padding: 20px;
+    display:block;
+    justify-content: space-around;
+    flex-direction:row-reverse;
     width: 100%;
-    justify-content:flex-end;
 
   }
     
+.bvb{
+     padding: 10px 100px 30px 20px;
+    display:block;
+    justify-content:center;
+}
+    
+
+
     
 }
 .fdd{
