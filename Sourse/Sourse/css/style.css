@@ -70,7 +70,7 @@ nav{
     margin: 50px 14px 0px 14px;
 }
 
-div h2{
+.hhx{
     height: 80px;
     text-align: center;
     font-family:serif;
@@ -244,7 +244,7 @@ div h2{
 }
 
 .pl{
-    
+    text-align: center;
     
 }
 
@@ -284,26 +284,29 @@ div h2{
 }
 .kmk{
     text-align: center;
-
+    
 }
 
-
-
-
 .vdv{
-     padding: 100px;
-    display:inline-flex;
+  padding: 20px;
+    display:block;
+    justify-content: space-around;
+    flex-direction:row-reverse;
     width: 100%;
-    justify-content:flex-end;
 
   }
     
-    
+.bvv{
+    padding: 100px 30px 100px 150px;
+    display: inline-block;
+    width: 500px;
 }
+    
+
 .fdd{
-    padding: 300px 20px 20px 20px;
+    padding: 200px 20px 20px 20px;
     text-align: center;
-    text-transform:uppercase;
+    text-transform: uppercase;
     text-decoration: underline;
     font-weight:bold;
 }
