@@ -166,19 +166,8 @@
 
 
    
-   <script language="JavaScript">
-    prompt("Какой сайт вам нужен?","Сайт-визитка/Интернет-магазин/Корпоративный");
-    
-</script>
-   
-   <script language="JavaScript">
-    prompt("Дизайн?", "Новый/Ретро/Индивидуальный");
-</script>
-   
-   <script language="JavaScript">
-    prompt("Адаптивность?", "Телефон/Компьютер/Два в одном");
-</script>
-    
+  <script src="js/myScript.js"></script>
+  
 <h3 class="qaz">Тип сайта</h3>
 <select class="form-select" aria-label="Default select example">
 <option selected></option>
@@ -221,13 +210,40 @@
 <div class="row">
 <div class="col-xxl-2 col-lg-12">
 
-<h1 class="aaa">Немного статистики</h1>
+<h1 class="aaa"></h1>
 
 <div class="gol">
-<h3>120 Довольных клиентов</h3>
-<h3>4600 Часов Работы</h3>
-<h3>340 Проектов завершено</h3>
-<h3>23 Наград получено</h3>
+<div class="benefits">
+    <div class="benefits__inner">
+        <h1 class="benefits__header">
+            Немного статистики
+        </h1>
+        <div class="benefits__element">
+           
+            <p class="benefits__number">120</p>
+            <p class="benefits__title">Довольных клиентов</p>
+        </div>
+        <div class="benefits__element">
+            
+            <p class="benefits__number">4600</p>
+            <p class="benefits__title">Часов работы</p>
+        </div>
+        <div class="benefits__element">
+            
+            <p class="benefits__number">340</p>
+            <p class="benefits__title">Проектов завершено</p>
+            
+            <div class="benefits__element">
+               
+            <p class="benefits__number">23</p>
+            <p class="benefits__title">Наград получено</p> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 </div>
   </div>
 </div>
@@ -288,5 +304,9 @@
     </div>
 
 </footer>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+
+<script src="js/myScript.js"></script>
 </body>
 </html>
