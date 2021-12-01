@@ -1,7 +1,4 @@
 
-
-
-<script type="text/javascript">
 $(document).ready(function() {
  $(".slider").each(function () { // обрабатываем каждый слайдер
   var obj = $(this);
@@ -27,7 +24,6 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
  sliderJS(obj, sl); // слайдим
  return false;
 });
-</script>
 
 
 "use strict"
