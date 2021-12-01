@@ -26,8 +26,6 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
 });
 
 
-"use strict"
-
 let type = prompt("Какой сайт вам нужен? 1.Сайт-визитка 2.Корпоративный 3.Интернет-магазин");
 let style = prompt("Дизайн? 1.Новый 2.Ретро 3.Индивидуальный");
 let adaptivity = prompt("Адаптивность? 1.Телефон 2.Компьютер 3.Два в одном");
