@@ -307,9 +307,14 @@ nav{
     text-align:center;
     padding: 200px 20px 20px 20px;
 }
-
+.leps{
+    padding: 200px 10px 10px 10px;
+}
+    
+    
 .help{
-    color: currentColor;
+    color: #000000;
+    
 }
     
 }
