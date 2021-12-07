@@ -161,8 +161,30 @@
 
 <div class="container">
 <div class="row">
-<div class="">
-<img class="img-fluid col-xxl-2 col-lg-12" src="../Sourse/img/office.jpg" alt="">
+<div class="reiv">
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../Sourse/img/sladeOne.png" class="d-block w-100 col-xxl-4 col-lg-12 " alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../Sourse/img/sladeTwo.png" class="d-block w-100 col-xxl-2 col-lg-12" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../Sourse/img/sladeTheere.png" class="d-block w-100 col-xxl-4 col-lg-12" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
+
 </div>
 </div>
 </div>
@@ -187,50 +209,69 @@
 <div class="row">
 
 
-<div class="p-6 border  justify-content-center align-items-center">
+<div class="justify-content-center align-items-center">
 
 
 <div class="lp">
 <h1 class="zxc">Расчет стоимости</h1>
 
+<div class="marid">
+ <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Тип сайта
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Сайт-визитка</a></li>
+    <li><a class="dropdown-item" href="#">Корпоротивный сайт</a></li>
+    <li><a class="dropdown-item" href="#">Интернет-магазин</a></li>
+  </ul>
+</div>
 
-   <h3 class="qaz">Тип сайта</h3>
-<select class="form-select" aria-label="Default select example">
-<option selected></option>
-  <option value="1">Визитка</option>
-  <option value="2">Деловой</option>
-  <option value="3">Интернет-магазин</option>
-  </select>
-  
-  
-<h3 class="wsx">Дизайн</h3>
-<select class="form-select" aria-label="Default select example">
-<option selected></option>
-  <option value="1">Деловой</option>
-  <option value="2">Адаптивный</option>
-  <option value="3">Вирусный</option>
- 
-</select>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Дизайн
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Новый</a></li>
+    <li><a class="dropdown-item" href="#">Ретро</a></li>
+    <li><a class="dropdown-item" href="#">Индивидуальный</a></li>
+  </ul>
+</div>
 
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Адаптивность
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Для телефона</a></li>
+    <li><a class="dropdown-item" href="#">Для компьтера</a></li>
+    <li><a class="dropdown-item" href="#">Полностью адаптивный</a></li>
+  </ul>
+</div>
 
-<h3 class="edc">Адаптивность</h3>
-<select class="form-select" aria-label="Default select example">
-<option selected></option>
-  <option value="1">Телефон</option>
-  <option value="2">Компьютер</option>
-  <option value="3">Телефон и компьютер</option>
-  </select>
 </div>
 </div>
 </div>
 </div>
+</div>
 
+<div class="pl"> 
 
-
-
-<div class="pl"><h2>Сроки</h2>
-<h2>Стоимость</h2></div>
-
+<p>
+  <a class="col-xxl-2 col-lg-1 btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Сроки
+  </a>
+  <button class="col-xxl-2 col-lg-1 btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Стоимость
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Для примерной стоимости перезагрузите страницу и выберите в сплывающем окне необходимые параметры для сайта.
+    Для более точного расчета стоимости отправляйте сообщение по электронному адресу указанному в конце сайта. 
+  </div>
+</div>
+</div>
 
 <div class="container">
 <div class="row">
@@ -312,7 +353,7 @@
     
     <div class="carousel-item">
       <div class="hytor"><img src="../Sourse/img/men.png" class="w-200 col-xxl-2 col-lg-2" alt="..."></div>
-      <h5 class="help">Николай Коваль</h5>
+      <h5 class="help">Олег Михайлов</h5>
         <p class="help">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ducimus autem sapiente odio quisquam excepturi consectetur minima laboriosam, a veritatis! Facilis aut, id, natus eligendi beatae fugit expedita est accusantium!</p>
       <div class="carousel-caption d-none d-md-block">
         </div>

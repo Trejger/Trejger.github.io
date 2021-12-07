@@ -148,6 +148,9 @@ nav{
     text-align: center;
     
 }
+.reiv{
+    padding: 50px 10px 10px 10px;
+}
 .er{
     padding: 30px 50px 40px 40px;
     height: 100%;
@@ -177,64 +180,23 @@ nav{
 }
 
 .zxc{
-    padding: 200px;
-    padding-bottom: 80px;
-    height: 100px;
+    text-align: center;
+    padding: 150px 10px 100px 350px;
     font-family:inherit;
     font-weight:bold;
+    text-transform:uppercase;
+    
+}
+
+.marid{
     text-align: center;
-    text-transform:uppercase;
-    
-}
-
-.qaz{
-    user-select: all;
-    display: block;
-    padding: 30px 20px 20px 200px;
-    font-weight:bold;
-    text-transform:uppercase;
-}
-
-.zaq{
-    user-select:all;
-    text-align:left;
-    padding: 10px 10px 10px 200px;
-    margin: 30px;
-    
-}
-
-.wsx{
-    user-select: all;
-    display: block;
-    padding: 20px 20px 20px 200px;
-    font-weight:bold;
-    text-transform:uppercase;
-}
-
-.xsw{
-    user-select:all;
-    text-align:left;
-    padding: 10px 10px 10px 200px;
-    margin: 30px;
-}
-
-.edc{
-    user-select: all;
-    display: block;
-    padding: 20px 20px 20px 200px;
-    font-weight:bold;
-    text-transform:uppercase;
-}
-
-.cde{
-    user-select:all;
-    text-align:left;
-    padding: 10px 10px 10px 200px;
-    margin: 10px;
+    padding: 30px 10px 10px 350px;
+    line-height: 100px;
 }
 
 .lp{
     user-select: all;
+    text-align: center;
     display: block;
     padding: 10px 10px 10px 20px;
     font-weight:bold;
@@ -244,6 +206,7 @@ nav{
 
 .pl{
     text-align: center;
+    padding: 30px 10px 10px 5px;
     
 }
 
@@ -270,7 +233,7 @@ nav{
 .benefits__header {
     width: 100%;
     text-align: center;
-    padding: 0 15px 60px;
+    padding: 80px 15px 60px;
     text-transform: uppercase;
 }
  
