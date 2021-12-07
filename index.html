@@ -23,6 +23,31 @@
 
  
  <header>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Хочешь скидку на первый заказ?
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Скидка на 50%</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Если хочешь получить скидку 50% на первый заказ скорее пиши мне!
+        Всю инофрмацию вы найдете в конце сайта. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ОК</button>
+        <button type="button" class="btn btn-primary">Отмена</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
      <nav>
         
         <div class="container">
@@ -270,25 +295,27 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="../Sourse/img/himaty.png" class="w-200 col-xxl-2 col-lg-2 border-radius 10px" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5 class="help">Михаил Баринов</h5>
+      <div class="hytor"><img src="../Sourse/img/himaty.png" class="w-200 col-xxl-2 col-lg-2" alt="..."></div>
+      <h5 class="help">Михаил Баринов</h5>
         <p class="help">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident incidunt quaerat ducimus explicabo sit est nesciunt magnam, blanditiis, delectus quibusdam cum dolores magni facilis autem sunt possimus in dicta maiores.</p>
-      </div>
+      <div class="carousel-caption d-none d-md-block">
+        </div>
     </div>
+    
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="../Sourse/img/omeen.png" class="w-200 col-xxl-2 col-lg-2 border-radius 10px" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5 class="help">Анастасия Болдырева</h5>
+      <div class="hytor"><img src="../Sourse/img/omeen.png" class="w-200 col-xxl-2 col-lg-2 text-align-center" alt="..."></div>
+      <h5 class="help">Николь Манукян</h5>
         <p class="help">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla commodi iusto sunt mollitia, nihil minus dignissimos totam, ipsam placeat harum.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="../Sourse/img/men.png" class="w-200 col-xxl-2 col-lg-2 border-radius 10px" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="help">Арсений Коваль</h5>
+        </div>
+    </div>
+    
+    <div class="carousel-item">
+      <div class="hytor"><img src="../Sourse/img/men.png" class="w-200 col-xxl-2 col-lg-2" alt="..."></div>
+      <h5 class="help">Николай Коваль</h5>
         <p class="help">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ducimus autem sapiente odio quisquam excepturi consectetur minima laboriosam, a veritatis! Facilis aut, id, natus eligendi beatae fugit expedita est accusantium!</p>
-      </div>
+      <div class="carousel-caption d-none d-md-block">
+        </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
