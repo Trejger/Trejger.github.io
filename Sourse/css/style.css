@@ -41,7 +41,7 @@ nav{
 .main{
  width: 100%;
     height: 100%;
-    background: url(../img/boy.png) 70% 100%/auto 85% no-repeat; 
+    background: url(../img/Boy.png) 70% 100%/auto 85% no-repeat; 
 }
 
    
@@ -81,7 +81,11 @@ nav{
 
 .maybe{
     text-align: center;
-    padding: 100px 100px 10px 100px;
+    padding: 100px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
 }
 .hhx{
     height: 60px;
