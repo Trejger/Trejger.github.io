@@ -40,6 +40,10 @@ nav{
     text-transform: uppercase;
     
 }
+
+.menu a{
+   color: #fff; 
+}
 .main{
  width: 100%;
     height: 100%;
@@ -90,10 +94,6 @@ nav{
     
 }
 
-.headlines{
-   
-     background: url(../img/stripeline.png) 5% 100%/auto 5% no-repeat;
-}
 
 
 .hhx{
@@ -101,14 +101,14 @@ nav{
     text-align: center;
     font-family:serif;
     text-transform: uppercase;
-    text-decoration: underline;
+    
     font-weight:bold;
-    padding: 70px 10px 10px 10px;
+    padding: 90px 10px 10px 10px;
     
 }
 
 .nom {
-    padding: 50px;
+    padding: 70px;
     height: 50px;
     font-family:inherit;
     text-align: center;
@@ -143,8 +143,11 @@ nav{
     text-transform:uppercase;
     font-weight: 200;
     margin: 100px 10px 10px 10px;
-    text-decoration:underline;
     padding: 40px 20px 0px 0px;
+}
+
+.magic{
+    text-align: center;
 }
 .col{
     padding: 70px 100px 30px 20px;
@@ -167,7 +170,7 @@ nav{
     font-family:inherit;
     text-align: center;
     text-transform:uppercase;
-    text-decoration:underline;
+    
 }
 .rov {
     font-family:inherit;
@@ -294,7 +297,6 @@ nav{
 
 .pom{
     text-transform:uppercase;
-    text-decoration: underline;
     font-weight:bold;
     text-align:center;
     padding: 100px 20px 20px 20px;
@@ -326,15 +328,15 @@ nav{
 }
 .mnn{
     text-transform:uppercase;
-    text-decoration: underline;
     font-weight:bold;
     text-align:center;
     color: #FFFFFF;
-    padding: 150px 20px 20px 20px;
+    padding: 200px 20px 20px 20px;
 }
 .kmk{
     color: #FFFFFF;
     text-align: center;
+    padding: 40px 10px 10px 10px;
     
 }
 
@@ -347,9 +349,13 @@ nav{
   }
     
 .bvv{
-    padding: 50px 20px 20px 60px;
     display: inline-block;
+    padding: 40px 0px 0px 0px;
+    height: 50px;
+    font-family:inherit;
+    text-align: center;
     color: #FFFFFF;
+    
     
 }
     
