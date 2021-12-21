@@ -229,6 +229,17 @@ nav{
     line-height: 100px;
 }
 
+.calculator_wrapper{
+    background-color: #fff;
+    box-shadow: 1px 1px 20px 1px grey;
+    margin-bottom: 40px;
+    padding: 90px 150px 90px 150px;
+    width: 500px;
+    text-align: center;
+    display:block;
+
+}
+
 .lp{
     user-select: all;
     text-align: center;
