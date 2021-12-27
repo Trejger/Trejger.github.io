@@ -216,7 +216,7 @@ nav{
 
 .zxc{
     text-align: center;
-    padding: 150px 10px 100px 350px;
+    padding: 150px 10px 100px 250px;
     font-family:inherit;
     font-weight:bold;
     text-transform:uppercase;
@@ -225,7 +225,7 @@ nav{
 
 .marid{
     text-align: center;
-    padding: 30px 10px 10px 350px;
+    padding: 30px 100px 10px 290px;
     line-height: 100px;
 }
 
@@ -234,12 +234,20 @@ nav{
     box-shadow: 1px 1px 20px 1px grey;
     margin-bottom: 40px;
     padding: 90px 150px 90px 150px;
-    width: 500px;
+    width: 650px;
     text-align: center;
     display:block;
 
 }
 
+.sele{
+    width: 300px;
+    height: 40px;
+    box-shadow: 1px 1px 20px 1px #778899;
+    text-align: center;
+    
+    
+}
 .lp{
     user-select: all;
     text-align: center;
@@ -379,10 +387,51 @@ nav{
     text-align: center;
     padding: 20px 10px 10px 10px;
     text-align: center;
+    
     text-transform: uppercase;
     text-decoration: underline;
     font-weight:bold; 
     color: #FFFFFF;
 }
 
-
+.names{
+    line-height: 20px;
+    padding-bottom: 10px;
+    display: inline-grid;
+    text-align: center;
+    width: 300px;
+    height: 40px; /* Размеры */
+    background: #FFFFFF; /* Цвет фона */
+    outline: 2px solid #000; /* Чёрная рамка */
+    border-radius: 5px; /* Радиус скругления */
+   }
+    
+.namesTwo{
+    text-align: center;
+    width: 300px;
+    display:inline-table;
+    height: 35px; /* Размеры */
+    background: #FFFFFF; /* Цвет фона */
+    outline: 2px solid #000; /* Чёрная рамка */
+    border-radius: 5px; /* Радиус скругления */
+}
+.namesTh{
+    line-height: 10px;
+   
+    padding-bottom:padding: 0px;
+    display:inline;
+    text-align: center;
+    width: 300px;
+    height: 120px; /* Размеры */
+    background: #FFFFFF; /* Цвет фона */
+    outline: 2px solid #000; /* Чёрная рамка */
+    border-radius: 8px; /* Радиус скругления */
+}
+.namesFour{
+    background: #FFFFFF; /* Цвет фона */
+    outline: 2px solid #000; /* Чёрная рамка */
+    border-radius: 8px; /* Радиус скругления */
+    width: 90px;
+    height: 50px;
+    text-align: center;
+}
