@@ -34,20 +34,62 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Скидка на 50%</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Обратная связь</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Если хочешь получить скидку 50% на первый заказ скорее пиши мне!
-        Всю инофрмацию вы найдете в конце сайта. 
+       
+       <form action="php/mail.php" method="post">
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" name="user_email" required class="form-control" id="inputEmail3">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Телефон</label>
+    <div class="col-sm-10">
+      <input type="phone" name="user_phone" required class="form-control" id="inputTel">
+    </div>
+  </div>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-6 pt-0">Вы впервый раз на этом сайте?</legend>
+    <div class="col-sm-6">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="radios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          Да
+        </label>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ОК</button>
-        <button type="button" class="btn btn-primary">Отмена</button>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="radios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Нет
+        </label>
+      </div>
+     
+    </div>
+  </fieldset>
+  <div class="row mb-3">
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" name="check" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Пользовательское соглашение
+        </label>
       </div>
     </div>
   </div>
-</div>
+  <button type="submit" class="btn btn-primary">Отправить</button>
+</form>
+       
+       
+      </div>
+      
+      </div>
+    </div>
+  </div>
+
     
      <nav>
         
@@ -440,39 +482,48 @@
     <img src="../Sourse/img/openemail.png" class="col-lg-2" alt="" >
     
     <h2>Почта</h2>
-    <h3>andrybrown@mail.ru</h3></div>
+    <a href="mailto:marina.trejger@mail.ru">
+    <h3>andrybrown@mail.ru</h3></a>
+    </div>
     
     <div class="bvv  col-md-4" >
     <img src="../Sourse/img/phone.png" class="col-lg-2" alt="">
-    <h2>Телефон <a href="https://wa.me/<+79841482964"></a> </h2>
-     
-    <h3>+79997844433 </h3></div>
-    
+    <h2>Телефон </h2>
+     <a href="https://wa.me/+79841482964">
+    <h3>+79997844433 </h3></a> 
+    </div>
       </div>
 </div>
 
-    
-    <div class="container">
-    <div class="rowTwo">
-    
-    <div class=""><h2 class="fdd">Оставьте мне сообщение</h2>
-    
-    <div class="sfs">
-    <div class="names"><input type="text" placeholder="Имя"></div>
-    <div class="namesTwo"><input type="text" placeholder="Email"></div>
-    <div class="namesTh">
-    <br><textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea></div>
-    
-   <div class="namesFour"> <br><input type="submit" value="Отправить">
-   </div>
-   </div>
-    </div>
-    </div>
-    </div>
-    </div>
+  
+   
+   
     
 
+   
+   <form action="" class="postcard">
+<div class="form-row">
+<label for="name">Ваше имя</label><input type="text" id="name" required>
+</div>
+<div class="form-row">
+<label for="email">Ваш Email</label><input type="email" id="email" required>
+</div>
+<div class="form-row">
+<label for="message">Ваше сообщение</label><textarea rows="5" id="message" required></textarea>
+</div>
+<div class="form-row">
+<input type="submit" value="Отправить сообщение">
+</div>
+</form>
+   
+    
+    
+ <div class="row"><div class="col-0">
+
+ </div><div class="col-12"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A774699fc10398e135cc08156c2d9152c337107b2245bce9175c7da4385fc9e3d&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script></div></div>
+</div>
     </footer>
+
 
 
 
@@ -482,6 +533,7 @@
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/jquery.spincrement.min.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/maskedinput.min.js"></script>
 <script src="js/myScript.js"></script>
 
 </body>
