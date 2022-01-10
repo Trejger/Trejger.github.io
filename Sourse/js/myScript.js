@@ -1,5 +1,4 @@
 
-
 $(document).ready(function() {
  $(".slider").each(function () { // обрабатываем каждый слайдер
   var obj = $(this);
@@ -27,39 +26,37 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
 });
 
 
+
 $(document).ready(function(){
-    new WOW().init();
+$("#inputTel").mask("+7(999) 999-9999");
+
+if ($("#inputTel").val() == ""|| $("#inputEmail3").val() == "" ){
+alert("Введите телефон");
+}
 });
 
 $(document).ready(function(){
-    $("#inputTel").mask("+7(999) 999-9999");
-    
-    if ($("#inputTel").val() == ""|| $("#inputEmail3").val() == "" ){
-        alert("Введите телефон");
-    }
+$('form').submit(function(){
+event.preventDefault()
+
+$.ajax({
+type: "POST",
+url: "php/mail.php",
+data: $(this).serialize()
+}).done(function (){
+$(this).find("input").val("");
+alert("Успешно отправлено!");
+$("form").trigger("reset");
+
+});
+return false;
 });
 
-$(document).ready(function(){
-    $('form').submit(function(){
-        event.preventDefault()''
-        
-        $.ajax({
-            type: "POST",
-            url: "php/mail.php",
-            data: $(this).serialize()
-        }).done(function (){
-            $(this).find("input").val("");
-            alert("Успешно отправлено!");
-            $("form").trigger("reset");
-            
-        });
-        return false;
-    });
-                     
-                     
+
 });
 
-let  type = prompt("Какой сайт вам нужен? 1.Сайт-визитка 2.Корпоративный 3.Интернет-магазин");
+
+let type = prompt("Какой сайт вам нужен? 1.Сайт-визитка 2.Корпоративный 3.Интернет-магазин");
 let style = prompt("Дизайн? 1.Новый 2.Ретро 3.Индивидуальный");
 let adaptivity = prompt("Адаптивность? 1.Телефон 2.Компьютер 3.Два в одном");
 
@@ -204,7 +201,6 @@ $(document).ready(function () {
     });
  
 });
-
 
 
 
