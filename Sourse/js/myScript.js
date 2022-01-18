@@ -27,7 +27,7 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
 
 
 
-$(document).ready(function()
+$(document).ready(function(){
 $("#inputTel").mask("+7(999) 999-9999");
 
 if ($("#inputTel").val() == ""|| $("#inputEmail3").val() == "" ){
