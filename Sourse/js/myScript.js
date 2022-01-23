@@ -27,6 +27,12 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
 
 
 
+
+
+$(document).ready(function(){
+$('form').submit(function(){
+event.preventDefault()
+
 $(document).ready(function(){
 $("#inputTel").mask("+7(999) 999-9999");
 
@@ -34,12 +40,6 @@ if ($("#inputTel").val() == ""|| $("#inputEmail3").val() == "" ){
 alert("Введите телефон");
 }
 });
-
-$(document).ready(function(){
-$('form').submit(function(){
-event.preventDefault()
-
-
 
 });
 

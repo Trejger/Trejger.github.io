@@ -13,13 +13,13 @@ $email = $_POST['user_email'];
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'example@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = 'password'; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = 'marina.trejger@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
+$mail->Password = 'UPYR&ypu2rr1'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('example@mail.ru'); // от кого будет уходить письмо?
-$mail->addAddress('exampleto@p33.org');     // Кому будет уходить письмо 
+$mail->setFrom('marina.trejger@mail.ru'); // от кого будет уходить письмо?
+$mail->addAddress('besenok-1995@mail.ru');     // Кому будет уходить письмо 
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
@@ -28,13 +28,13 @@ $mail->addAddress('exampleto@p33.org');     // Кому будет уходит�
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Заявка с тестового сайта';
-$mail->Body    = '' .$name . ' оставил заявку!';
+$mail->Subject = 'Тема письма';
+$mail->Body    = '' .$email . ' оставил заявку!';
 $mail->AltBody = '';
 
 if(!$mail->send()) {
-    echo 'Error';
+    return false;
 } else {
-    echo 'success';
+    return true;
 }
 ?>
